@@ -1,3 +1,6 @@
+cronTrigger:
+  triggerOnUpdate: false
+  spec: "* * * * *"
 stages:
 - name: Build
   steps:
